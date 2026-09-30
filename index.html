@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#08080a"/>
+  <meta name="description" content="Portofolio Alfi Permana Putra, Pengembang Web Junior dari Purbalingga."/>
+  <title>Alfi Permana Putra | Pengembang Web Junior</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Onest:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/images.css"/>
+  <link rel="stylesheet" href="css/motion.css"/>
+  <script src="js/main.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+  <div class="preloader" id="preloader" aria-label="Memuat situs">
+    <span class="preloader-name">Alfi Permana</span>
+    <span class="preloader-count"><span id="preloaderCount">0</span><span class="accent">%</span></span>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Navigasi utama">
+      <a class="nav-brand" href="#top" aria-label="Alfi Permana Putra, kembali ke atas"><span class="nav-name">Alfi Permana Putra</span></a>
+      <ul class="desktop-links">
+        <li><a href="#perjalanan">Perjalanan</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#sekilas">Sekilas</a></li>
+        <li><a href="#publikasi">Publikasi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Buka menu navigasi" aria-controls="mobileMenu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Navigasi seluler" aria-hidden="true" inert>
+    <ul>
+      <li><a href="#perjalanan">Perjalanan</a></li>
+      <li><a href="#proyek">Proyek</a></li>
+      <li><a href="#sekilas">Sekilas</a></li>
+      <li><a href="#publikasi">Publikasi</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" id="hero" aria-label="Beranda">
+      <div class="hero-top">
+        <div class="hero-roles" aria-label="Keahlian dan peran">
+          <span>Junior Web Developer</span>
+        </div>
+        <p class="hero-description">Lulusan S1 Informatika yang membangun aplikasi web, dari platform pendanaan UMKM hingga e-commerce dengan integrasi payment gateway. Terbuka untuk peluang sebagai Pengembang Web Junior.</p>
+      </div>
+      <h1 class="hero-name" aria-label="Alfi Permana"><span>Alfi</span><span>Permana</span></h1>
+      <figure class="hero-portrait"><img src="assets/foto-alfi.png" alt="Foto Alfi Permana Putra"/></figure>
+      <a class="scroll-cue" href="#perjalanan"><span></span>Gulir untuk masuk</a>
+    </section>
+
+    <section class="marquee" aria-label="Teknologi yang saya gunakan">
+      <div class="marquee-track" aria-hidden="true">
+        <div class="marquee-group"><span>Laravel<i></i>React.js<i></i>Django<i></i>Tailwind CSS<i></i>MySQL<i></i></span><span>Laravel<i></i>React.js<i></i>Django<i></i>Tailwind CSS<i></i>MySQL<i></i></span></div>
+      </div>
+    </section>
+
+    <section class="page-section journey" id="perjalanan" aria-label="Perjalanan karier dan pendidikan">
+      <div class="journey-grid">
+        <div class="journey-intro">
+          <p class="eyebrow"><i></i> Perjalanan</p>
+          <h2 class="section-heading">Belajar dengan<br/>membangun.</h2>
+          <p class="lead">Saya lulusan S1 Informatika Universitas Amikom Purwokerto yang berminat pada pengembangan web. Melalui program MSIB, saya memimpin kelompok dalam merancang proyek berbasis website dan terus mengembangkan keterampilan melalui proyek.</p>
+        </div>
+        <ol class="timeline">
+          <li><span>01</span><div><h3>SMK N 1 Kutasari</h3><p>Teknik Komputer dan Jaringan, 2019–2022.</p></div></li>
+          <li><span>02</span><div><h3>Universitas Amikom Purwokerto</h3><p>S1 Informatika, 2022–2026. IPK 3,60 dari 4,00.</p></div></li>
+          <li><span>03</span><div><h3>MSIB Batch 7 di Halofina</h3><p>Platform and Web Developer for Financial/Banking Service, September–Desember 2024. Memimpin tim pada proyek CROWDUMKM.</p></div></li>
+          <li><span>04</span><div><h3>Skripsi dan publikasi</h3><p>Mengembangkan Batik Giri Alam dengan Laravel dan menerbitkan dua artikel jurnal pada 2025 dan 2026.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="page-section projects" id="proyek" aria-label="Proyek pilihan">
+      <div class="section-top"><div><p class="eyebrow"><i></i> Proyek pilihan</p><h2 class="section-heading">Karya yang<br/>saya bangun.</h2></div><p class="eyebrow project-count">03 / Proyek</p></div>
+      <div class="project-grid">
+        <article class="project-card"><figure class="project-art art-crowd"><img src="assets/proyek-crowdumkm.png" alt="Tampilan proyek CROWDUMKM"/></figure><div class="project-meta"><div><h3>CROWDUMKM</h3><p>Platform digital untuk mendukung akses pendanaan UMKM, dikembangkan dengan React.js dan Django dalam program MSIB Halofina Batch 7.</p></div><div class="project-side"><span>2024</span><strong>Pemimpin Proyek</strong></div></div><p class="project-category">Platform pendanaan UMKM</p></article>
+        <article class="project-card"><figure class="project-art art-batik"><img src="assets/proyek-batik-giri-alam.jpg" alt="Tampilan proyek Batik Giri Alam"/></figure><div class="project-meta"><div><h3>Batik Giri Alam</h3><p>Profil perusahaan dengan e-commerce dan pemesanan workshop. Backend Laravel dengan integrasi API RajaOngkir dan payment gateway Tripay. Proyek skripsi tim dua orang.</p></div><div class="project-side"><span>2026</span><strong>Back-end</strong></div></div><p class="project-category">E-commerce &amp; pemesanan workshop</p></article>
+        <article class="project-card"><figure class="project-art art-rental"><img src="assets/proyek-ps-rental.jpg" alt="Tampilan aplikasi rental PlayStation 3 dan 4"/></figure><div class="project-meta"><div><h3>PlayStation Rental &amp; Booking</h3><p>Aplikasi web manajemen rental PlayStation 3 dan 4, termasuk pemesanan daring, manajemen pembayaran, dan dasbor admin.</p></div><div class="project-side"><span>2025</span><strong>Proyek kuliah</strong></div></div><p class="project-category">Sistem pemesanan rental</p></article>
+      </div>
+    </section>
+
+    <section class="page-section overview" id="sekilas" aria-label="Statistik dan sertifikasi">
+      <p class="eyebrow"><i></i> Dalam angka</p><h2 class="section-heading">Ringkasnya,<br/>dalam angka.</h2>
+      <dl class="stats-grid">
+        <div><dd>3</dd><dt>Proyek web di portofolio ini</dt></div><div><dd>2</dd><dt>Artikel jurnal terpublikasi</dt></div><div><dd>3,60</dd><dt>IPK S1 Informatika (skala 4,00)</dt></div><div><dd>6</dd><dt>Sertifikasi dan pelatihan</dt></div>
+      </dl>
+      <div class="certifications"><h3>Sertifikasi &amp; Pelatihan</h3><ul>
+        <li>Peserta MSIB Batch 7 — Kampus Merdeka (2024)</li><li>Platform and Web Developer for Financial/Banking Service — Halofina (2024)</li><li>Certificate of Appreciation Golden Ticket — Halofina (PT Akselerasi Edukasi Internasional)</li><li>Certified Artificial Intelligence Associate (CAIA) — Universitas Amikom Purwokerto</li><li>English Certification Program — Universitas Amikom Purwokerto</li><li>Desktop Office Training (DOT) — Universitas Amikom Purwokerto</li>
+      </ul></div>
+    </section>
+
+    <section class="page-section publications" id="publikasi" aria-label="Publikasi dan riset">
+      <p class="eyebrow"><i></i> Publikasi</p><h2 class="section-heading">Riset yang<br/>diterbitkan.</h2>
+      <div class="publication-layout"><div class="publication-list" role="tablist" aria-label="Pilih publikasi">
+        <button class="publication-tab active" id="publicationTab0" role="tab" aria-selected="true" aria-controls="publicationPanel" data-publication="0"><span>01</span><span><strong>Akses Pendanaan UMKM</strong><small>Jurnal Media Informatika (JuMIn), 2025</small></span></button>
+        <button class="publication-tab" id="publicationTab1" role="tab" aria-selected="false" aria-controls="publicationPanel" data-publication="1" tabindex="-1"><span>02</span><span><strong>Laravel E-commerce &amp; Workshop</strong><small>Academia Open (ACOPEN), 2026</small></span></button>
+      </div><div class="publication-feature" id="publicationPanel" role="tabpanel" aria-labelledby="publicationTab0" tabindex="0"><div><blockquote id="publicationTitle">Perancangan Website Terintegrasi untuk Mendukung Akses Pendanaan bagi UMKM</blockquote><p id="publicationPublisher">Jurnal Media Informatika (JuMIn), 2025</p><a id="publicationLink" href="https://ejournal.sisfokomtek.org/index.php/jumin/article/view/5373" target="_blank" rel="noopener noreferrer">Baca publikasi <span aria-hidden="true">↗</span></a></div><figure class="publication-art" id="publicationArt"><img id="publicationImage" src="assets/publikasi-jumin.png" alt="Sampul publikasi JuMIn tentang pendanaan UMKM"/><span aria-hidden="true">Riset 01</span><small aria-hidden="true">Jurnal ilmiah</small></figure></div></div>
+    </section>
+
+    <footer class="contact" id="kontak" aria-label="Kontak">
+      <p class="eyebrow"><i></i> Mari bicara</p><h2 class="contact-heading">Punya peluang untuk<br/>Pengembang Web Junior?</h2><p class="lead">Saya terbuka untuk diskusi seputar pekerjaan, magang, atau kolaborasi.</p>
+      <a class="email-link" href="mailto:alfipermana1@gmail.com">alfipermana1@gmail.com <span aria-hidden="true">↗</span></a>
+      <a class="cv-link" href="assets/CV_Alfi_Permana_Putra.pdf" download>Unduh CV (PDF) <span aria-hidden="true">↓</span></a>
+      <div class="footer-bottom"><div><p class="footer-name">Alfi Permana Putra</p><p class="eyebrow">Dirancang dan dibuat sendiri.</p></div><nav aria-label="Media sosial"><ul><li><a href="https://www.linkedin.com/in/alfi-permana" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="https://github.com/AlfiPermana" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://wa.me/6285842964866" target="_blank" rel="noopener noreferrer">WhatsApp</a></li></ul></nav><p class="eyebrow">© 2026 Alfi Permana Putra.</p></div>
+    </footer>
+  </main>
+</body>
+</html>
