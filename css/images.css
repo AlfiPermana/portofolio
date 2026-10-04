@@ -13,6 +13,8 @@
 .project-art {
   position: relative;
   padding: 0;
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 
 .project-art img {
@@ -22,7 +24,8 @@
 }
 
 .art-crowd img,
-.art-rental img {
+.art-rental img,
+.art-batik img {
   object-position: center top;
 }
 
